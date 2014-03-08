@@ -821,6 +821,28 @@ http://www.vishay.com/docs/71151/71151.pdf</description>
 <wire x1="-1.5" y1="0.8" x2="-1.5" y2="-0.8" width="0.2032" layer="21"/>
 <circle x="-1.7" y="-1.2" radius="0.14141875" width="0.2032" layer="21"/>
 </package>
+<package name="SOT-563">
+<description>&lt;b&gt;Small Outline Transistor; 6 leads&lt;/b&gt; Reflow soldering&lt;p&gt;</description>
+<circle x="-0.696" y="-1.2136" radius="0.1" width="0.2032" layer="21"/>
+<circle x="-0.569" y="-0.4262" radius="0.1" width="0.2032" layer="51"/>
+<wire x1="-0.8531" y1="0.7" x2="-0.8531" y2="-0.7" width="0.1016" layer="51"/>
+<wire x1="-0.8531" y1="-0.7" x2="0.8531" y2="-0.7" width="0.1016" layer="51"/>
+<wire x1="0.8531" y1="-0.7" x2="0.8531" y2="0.7" width="0.1016" layer="51"/>
+<wire x1="0.8531" y1="0.7" x2="-0.8531" y2="0.7" width="0.1016" layer="51"/>
+<rectangle x1="-0.6805" y1="-1.173" x2="-0.3305" y2="-0.648" layer="51"/>
+<rectangle x1="-0.175" y1="-1.173" x2="0.175" y2="-0.648" layer="51"/>
+<rectangle x1="0.3305" y1="-1.173" x2="0.6805" y2="-0.648" layer="51"/>
+<rectangle x1="0.3178" y1="0.648" x2="0.6678" y2="1.173" layer="51"/>
+<rectangle x1="-0.175" y1="0.648" x2="0.175" y2="1.173" layer="51"/>
+<rectangle x1="-0.6805" y1="0.648" x2="-0.3305" y2="1.173" layer="51"/>
+<smd name="1" x="-0.5004" y="-0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="2" x="0" y="-0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="3" x="0.5004" y="-0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="4" x="0.5004" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="5" x="0" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="6" x="-0.5004" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<text x="0" y="0" size="0.381" layer="25" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BAV99">
